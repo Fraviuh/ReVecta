@@ -202,7 +202,7 @@ function S2() {
   return (
     <div style={{ width: "100%", maxWidth: "1020px", display: "flex", flexDirection: "column", gap: "1.25rem", color: "#ffffff" }}>
       <div style={{ textAlign: "center" }}>
-        <Badge color={BLUE}>02 — Problema B2C</Badge>
+        <Badge color={BLUE}>02 — Problema B2B2C</Badge>
         <h2 style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 800, fontSize: "clamp(1.6rem,3.2vw,2.4rem)", color: "#fff", margin: "0.65rem 0 0", letterSpacing: "-0.02em" }}>
           Barreiras à adoção da mobilidade elétrica{" "}
           <span style={{ color: BLUE }}>B2C + B2B</span>
