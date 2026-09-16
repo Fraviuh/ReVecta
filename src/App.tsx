@@ -235,12 +235,7 @@ function S3() {
       impacto: "~1 hora mensal por colaborador. Custo administrativo insustentável e risco de inconformidade fiscal.",
     },
     {
-      icon: "🗺️", title: "Planeamento de Rotas Imprevisível",
-      desafio: "A autonomia real sofre quebras de 20–40% por carga, climatização ou temperaturas extremas.",
-      impacto: "Falhas no cumprimento de prazos operacionais. A maioria das empresas não tem gestão de rotas dinâmica.",
-    },
-    {
-      icon: "🚗", title: "Défice de Literacia de Condução",
+      icon: "", title: "Défice de Literacia de Condução",
       desafio: "Os condutores mantêm vícios da combustão — travagem regenerativa não adotada, binário instantâneo abusado nas acelerações.",
       impacto: "Consumos acima do projetado e pneus com 20–30% menos duração. Justifica o Score Condutor da App.",
     },
