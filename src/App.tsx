@@ -183,35 +183,34 @@ function S1() {
 function S2() {
   const items = [
     {
-      icon: "🔄",
-      title: "Experiência de Utilização Complexa",
-      quote: '"É preciso um bocadinho de tempo às vezes para investigar, é tempo que às vezes nós não temos."',
+      icon: "",
+      title: "Reembolso Doméstico Complexo",
+      quote: "Processamento manual de tarifários e perdas de eficiência anulam a poupança potencial ( 30 – 60% ).",
     },
     {
-      icon: "📱",
-      title: "Fragmentação Digital",
-      quote: '"A experiência é muito fragmentada... às tantas, tu tens um carro elétrico e já tens 50 apps no telefone."',
+      icon: "",
+      title: "Défice de Literacia de Condução",
+      quote: "Manuseamento desadequado do veículo elétrico, resultando em custos acrescidos de manutenção e desgaste da frota.",
     },
     {
-      icon: "😰",
-      title: "Ansiedade de Autonomia",
-      quote: '"As autonomias reais não têm nada a ver com as autonomias teóricas que eles anunciam."',
+      icon: "",
+      title: "Fragmentação da Experiência de Carregamento",
+      quote: "Informação e serviços dispersos por diferentes aplicações e operadores obrigam o condutor a realizar múltiplos passos e a cruzar dados para decidir onde, quando e como carregar.",
     },
   ];
 
   return (
     <div style={{ width: "100%", maxWidth: "1020px", display: "flex", flexDirection: "column", gap: "1.25rem", color: "#ffffff" }}>
       <div style={{ textAlign: "center" }}>
-        <Badge color={BLUE}>02 — Problema B2B2C</Badge>
+        <Badge color={BLUE}>02 — Problema B2C</Badge>
         <h2 style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 800, fontSize: "clamp(1.6rem,3.2vw,2.4rem)", color: "#fff", margin: "0.65rem 0 0", letterSpacing: "-0.02em" }}>
-          Barreiras à adoção da mobilidade elétrica{" "}
-          <span style={{ color: BLUE }}>B2C + B2B</span>
+          A Voz dos Condutores:{" "}
+          <span style={{ color: BLUE }}>O que falha na experiência EV</span>
         </h2>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.6rem" }}>
         {items.map((item) => (
           <Card key={item.title} style={{ padding: "0.9rem 1.1rem", display: "flex", gap: "0.75rem", alignItems: "flex-start" }}>
-            <span style={{ fontSize: "1.1rem", flexShrink: 0, marginTop: "0.1rem" }}>{item.icon}</span>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem", minWidth: 0 }}>
               <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.78rem", color: "#ffffff", lineHeight: 1.3 }}>
                 {item.title}
