@@ -231,17 +231,17 @@ function S3() {
   const pains = [
     {
       icon: "🏠", title: "Reembolso Doméstico Complexo",
-      desafio: "Poupanças de 30–60% face à rede pública, mas o processamento manual exige cálculos rigorosos de tarifários e perdas de eficiência energética.",
+      desafio: "Processamento manual de tarifários e perdas de eficiência anulam a poupança potencial ( 30 – 60% ).",
       impacto: "~1 hora mensal por colaborador. Custo administrativo insustentável e risco de inconformidade fiscal.",
     },
     {
       icon: "", title: "Défice de Literacia de Condução",
-      desafio: "Os condutores mantêm vícios da combustão — travagem regenerativa não adotada, binário instantâneo abusado nas acelerações.",
+      desafio: "Manuseamento desadequado do veículo elétrico, resultando em custos acrescidos de manutenção e desgaste da frota.",
       impacto: "Consumos acima do projetado e pneus com 20–30% menos duração. Justifica o Score Condutor da App.",
     },
     {
-      icon: "🗃️", title: "Sistemas Isolados e Fragmentação Digital",
-      desafio: "Renting, cartões de carregamento, software contabilístico e folhas manuais obrigam à consolidação manual de dados dispersos.",
+      icon: "🗃️", title: "Fragmentação da Experiência de Carregamento",
+      desafio: "Informação e serviços dispersos por diferentes aplicações e operadores obrigam o condutor a realizar múltiplos passos e a cruzar dados para decidir onde, quando e como carregar.",
       impacto: "Sem TCO em tempo real, duplicação administrativa e decisões baseadas em dados desatualizados.",
     },
   ];
@@ -260,7 +260,6 @@ function S3() {
           <Card key={p.title} style={{ padding: "1.25rem 1.25rem", display: "flex", flexDirection: "column", gap: "0.9rem", position: "relative", overflow: "hidden" }}>
             <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "2px", background: TEAL, opacity: 0.5 }} />
             <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
-              <span style={{ fontSize: "1.1rem", flexShrink: 0 }}>{p.icon}</span>
               <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.82rem", color: "#ffffff", lineHeight: 1.3 }}>{p.title}</div>
             </div>
             <div style={{ height: "1px", background: "rgba(255,255,255,0.07)" }} />
