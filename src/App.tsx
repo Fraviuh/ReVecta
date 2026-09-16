@@ -204,8 +204,8 @@ function S2() {
       <div style={{ textAlign: "center" }}>
         <Badge color={BLUE}>02 — Problema B2C</Badge>
         <h2 style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 800, fontSize: "clamp(1.6rem,3.2vw,2.4rem)", color: "#fff", margin: "0.65rem 0 0", letterSpacing: "-0.02em" }}>
-          A Voz dos Condutores:{" "}
-          <span style={{ color: BLUE }}>O que falha na experiência EV</span>
+          Barreiras à adoção da mobilidade elétrica{" "}
+          <span style={{ color: BLUE }}>B2C + B2B</span>
         </h2>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "0.75rem" }}>
