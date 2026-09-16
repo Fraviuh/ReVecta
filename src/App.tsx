@@ -208,17 +208,19 @@ function S2() {
           <span style={{ color: BLUE }}>O que falha na experiência EV</span>
         </h2>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.6rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "0.75rem" }}>
         {items.map((item) => (
-          <Card key={item.title} style={{ padding: "0.9rem 1.1rem", display: "flex", gap: "0.75rem", alignItems: "flex-start" }}>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem", minWidth: 0 }}>
-              <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.78rem", color: "#ffffff", lineHeight: 1.3 }}>
+          <Card key={item.title} style={{ padding: "1.25rem 1.25rem", display: "flex", flexDirection: "column", gap: "0.9rem", position: "relative", overflow: "hidden" }}>
+            <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "2px", background: BLUE, opacity: 0.5 }} />
+            <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+              <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.82rem", color: "#ffffff", lineHeight: 1.3 }}>
                 {item.title}
               </div>
-              <p style={{ margin: 0, fontSize: "0.72rem", color: "#e8eaf0", lineHeight: 1.5, fontStyle: "italic", paddingLeft: "0.6rem", borderLeft: "2px solid rgba(59,158,255,0.5)" }}>
-                {item.quote}
-              </p>
             </div>
+            <div style={{ height: "1px", background: "rgba(255,255,255,0.07)" }} />
+            <p style={{ margin: 0, fontSize: "0.76rem", color: "#ffffff", lineHeight: 1.65, paddingLeft: "0.7rem", borderLeft: `2px solid ${BLUE}55` }}>
+                {item.quote}
+            </p>
           </Card>
         ))}
       </div>
