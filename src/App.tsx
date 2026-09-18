@@ -436,10 +436,10 @@ function S6() {
           <span style={{ color: BLUE }}>Tecnologia Comprovada</span>
         </h2>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.25rem" }}>
-        <Card accent={BLUE} style={{ padding: "1.75rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.25rem", alignItems: "stretch" }}>
+        <Card accent={BLUE} style={{ padding: "1.75rem", display: "flex", flexDirection: "column", gap: "1.25rem", height: "100%" }}>
           <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.9rem", color: BLUE }}>Investigação Qualitativa</div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", flex: 1, justifyContent: "space-between" }}>
             {[
               { label: "Entrevistas Semi-Estruturadas", value: "20" },
               { label: "Período de recolha", value: "13 a 20 Jul 2026" },
@@ -454,10 +454,10 @@ function S6() {
             ))}
           </div>
         </Card>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-          <Card accent={TEAL} style={{ padding: "1.5rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1rem", height: "100%" }}>
+          <Card accent={TEAL} style={{ padding: "1.5rem", height: "100%", display: "flex", flexDirection: "column" }}>
             <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.9rem", color: BLUE, marginBottom: "0.75rem" }}>Casos de Sucesso</div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.85rem" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.85rem", flex: 1, justifyContent: "space-between" }}>
               {[
                 { name: "Projeto Galp / Nissan (Portugal)", note: "Em São Miguel, cada veículo poderá gerar uma receita mensal na ordem dos nove euros." },
                 { name: "AYR Platform (Portugal)", note: "Dados reais de mobilidade sustentável transformados em tokens de carbono transacionáveis por empresas locais." },
