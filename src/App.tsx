@@ -456,7 +456,7 @@ function S6() {
         </Card>
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           <Card accent={TEAL} style={{ padding: "1.5rem" }}>
-            <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.9rem", color: BLUE, marginBottom: "0.75rem" }}>Casos de Sucesso V2G</div>
+            <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.9rem", color: BLUE, marginBottom: "0.75rem" }}>Casos de Sucesso</div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.85rem" }}>
               {[
                 { name: "Projeto Galp / Nissan (Portugal)", note: "Em São Miguel, cada veículo poderá gerar uma receita mensal na ordem dos nove euros." },
