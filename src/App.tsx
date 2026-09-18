@@ -228,51 +228,6 @@ function S2() {
   );
 }
 
-function S3() {
-  const pains = [
-    {
-      icon: "🏠", title: "Reembolso Doméstico Complexo",
-      desafio: "Poupanças de 30–60% face à rede pública, mas o processamento manual exige cálculos rigorosos de tarifários e perdas de eficiência energética.",
-      impacto: "~1 hora mensal por colaborador. Custo administrativo insustentável e risco de inconformidade fiscal.",
-    },
-    {
-      icon: "", title: "Défice de Literacia de Condução",
-      desafio: "Os condutores mantêm vícios da combustão — travagem regenerativa não adotada, binário instantâneo abusado nas acelerações.",
-      impacto: "Consumos acima do projetado e pneus com 20–30% menos duração. Justifica o Score Condutor da App.",
-    },
-    {
-      icon: "🗃️", title: "Sistemas Isolados e Fragmentação Digital",
-      desafio: "Renting, cartões de carregamento, software contabilístico e folhas manuais obrigam à consolidação manual de dados dispersos.",
-      impacto: "Sem TCO em tempo real, duplicação administrativa e decisões baseadas em dados desatualizados.",
-    },
-  ];
-
-  return (
-    <div style={{ width: "100%", maxWidth: "1040px", display: "flex", flexDirection: "column", gap: "1.25rem", color: "#ffffff" }}>
-      <div style={{ textAlign: "center" }}>
-        <Badge color={TEAL}>03 — Problema B2B</Badge>
-        <h2 style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 800, fontSize: "clamp(1.6rem,3.2vw,2.4rem)", color: "#fff", margin: "0.65rem 0 0", letterSpacing: "-0.02em" }}>
-          A Fricção nas PMEs:{" "}
-          <span style={{ color: TEAL }}>Custos Ocultos e Carga Administrativa</span>
-        </h2>
-      </div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "0.75rem" }}>
-        {pains.map((p) => (
-          <Card key={p.title} style={{ padding: "1.25rem 1.25rem", display: "flex", flexDirection: "column", gap: "0.9rem", position: "relative", overflow: "hidden" }}>
-            <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "2px", background: TEAL, opacity: 0.5 }} />
-            <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
-              <span style={{ fontSize: "1.1rem", flexShrink: 0 }}>{p.icon}</span>
-              <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.82rem", color: "#ffffff", lineHeight: 1.3 }}>{p.title}</div>
-            </div>
-            <div style={{ height: "1px", background: "rgba(255,255,255,0.07)" }} />
-            <p style={{ margin: 0, fontSize: "0.76rem", color: "#ffffff", lineHeight: 1.65, paddingLeft: "0.7rem", borderLeft: `2px solid ${TEAL}55` }}>{p.desafio}</p>
-          </Card>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 function MockupCondutor() {
   return (
     <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "0.75rem", border: "1px solid rgba(59,158,255,0.2)", padding: "0.75rem", marginBottom: "0.85rem" }}>
@@ -795,6 +750,14 @@ function S11() {
   );
 }
 
+function BlankSlide() {
+  return (
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "100%" }}>
+      <div style={{ width: "100%", maxWidth: 900, height: "70vh", border: "1px dashed rgba(255,255,255,0.12)", borderRadius: "1.2rem", background: "rgba(255,255,255,0.01)" }} />
+    </div>
+  );
+}
+
 function S12() {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.5rem", maxWidth: 640 }}>
@@ -832,8 +795,8 @@ function S12() {
 
 // ─── Slide engine ─────────────────────────────────────────────────────────────
 
-const SLIDES = [S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12];
-const LABELS = ["Capa", "Problema B2C", "Problema B2B", "Solução", "Mercado", "Validação", "Modelo de Negócio", "Competitivo", "Go-To-Market", "Equipa", "Roadmap", "Fecho"];
+const SLIDES = [S1, S2, S4, S5, S6, S7, S8, S9, S10, S11, BlankSlide, S12];
+const LABELS = ["Capa", "Problema B2C", "Solução", "Mercado", "Validação", "Modelo de Negócio", "Competitivo", "Go-To-Market", "Equipa", "Roadmap", "", "Fecho"];
 type SlideState = "enter" | "exit" | "below";
 
 function SlideWrapper({ state, children }: { state: SlideState; children: React.ReactNode }) {
