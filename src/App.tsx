@@ -390,7 +390,7 @@ function S5() {
       label: "SOM", name: "Mercado Útil Obtível — Anos 1–3", color: PURPLE,
       value: "1.890 VE",
       sub: "4% do subsegmento-alvo",
-      desc: "20% das empresas adota carregamento doméstico (47.250 viaturas). A 4% de penetração nos primeiros 3 anos: meta de 226.800€ ARR a 10€/veículo/mês.",
+      desc: "• Meta de captação focado nos primeiros 3 anos de operação.\n\n• Foco direto no universo de 20% das empresas com soluções de carregamento residencial.",
     },
   ];
 
