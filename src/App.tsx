@@ -443,10 +443,8 @@ function S6() {
             {[
               { label: "Entrevistas Semi-Estruturadas", value: "20" },
               { label: "Período de recolha", value: "13 a 20 Jul 2026" },
-              { label: "Duração média", value: "23 minutos" },
               { label: "Amostra — Mulheres", value: "36,8%" },
               { label: "Amostra — Homens", value: "63,2%" },
-              { label: "Com carregamento privado", value: "14 inquiridos" },
               { label: "Experiência média com VE", value: "2 anos e 10 meses" },
             ].map((s) => (
               <div key={s.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0.4rem 0", borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
