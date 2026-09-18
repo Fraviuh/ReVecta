@@ -460,9 +460,7 @@ function S6() {
             <div style={{ display: "flex", flexDirection: "column", gap: "0.85rem" }}>
               {[
                 { name: "Projeto Galp / Nissan (Portugal)", note: "Em São Miguel, cada veículo poderá gerar uma receita mensal na ordem dos nove euros." },
-                { name: "Polestar VPP (Suécia)", note: "Os carros elétricos conectados à rede serão responsáveis por cobrir até 20% da demanda da rede elétrica de Gotemburgo." },
                 { name: "AYR Platform (Portugal)", note: "Dados reais de mobilidade sustentável transformados em tokens de carbono transacionáveis por empresas locais." },
-                { name: "Moovit Low Carbon Commute (Global)", note: "3.500 cidades e milhões de viagens em transportes públicos para gerar e vender créditos de carbono à escala corporativa." },
               ].map((r) => (
                 <div key={r.name} style={{ display: "flex", flexDirection: "column", gap: "0.55rem", paddingBottom: "0.85rem", borderBottom: "1px solid rgba(255,255,255,0.18)" }}>
                   <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.82rem", color: "#ffffff" }}>{r.name}</div>
