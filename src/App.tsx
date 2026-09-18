@@ -378,7 +378,7 @@ function S5() {
       label: "TAM", name: "Mercado Endereçável Total", color: BLUE,
       value: "659.336 VE",
       sub: "Projeção 2030 — Portugal",
-      desc: "243.954 veículos BEV em circulação no final de 2025. Mercado de carregamento público estimado entre 88M€–100M€. Projeção de crescimento para 659.336 BEV até 2030.",
+      desc: "Base ( final de 2025 ): 243.954 veículos BEV\n\nEscala: ~2,7x até 2030 ( CAGR de 22% )\n\nImpacto: Eletrificação acelerada do parque automóvel nacional.",
     },
     {
       label: "SAM", name: "Mercado Útil Disponível", color: TEAL,
@@ -410,7 +410,7 @@ function S5() {
             <div style={{ fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: m.color, fontFamily: "'Plus Jakarta Sans',sans-serif", marginBottom: "0.75rem" }}>{m.label}</div>
             <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 800, fontSize: "1.5rem", color: "#fff", marginBottom: "0.2rem" }}>{m.value}</div>
             <div style={{ fontSize: "0.68rem", color: m.color, fontWeight: 600, marginBottom: "0.75rem", fontFamily: "'Plus Jakarta Sans',sans-serif" }}>{m.sub}</div>
-            <p style={{ margin: 0, fontSize: "0.75rem", color: "#ffffff", lineHeight: 1.65 }}>{m.desc}</p>
+            <p style={{ margin: 0, fontSize: "0.75rem", color: "#ffffff", lineHeight: 1.65, whiteSpace: "pre-line" }}>{m.desc}</p>
           </Card>
         ))}
       </div>
