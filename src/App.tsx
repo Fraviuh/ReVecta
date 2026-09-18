@@ -418,7 +418,7 @@ function S5() {
         <div style={{ flex: 1 }}>
           <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: "0.85rem", color: "#fff", marginBottom: "0.2rem" }}>Porquê Agora?</div>
           <p style={{ margin: 0, fontSize: "0.78rem", color: "#ffffff", lineHeight: 1.6 }}>
-            A <strong style={{ color: BLUE }}>Taxonomia da UE</strong> e o <strong style={{ color: BLUE }}>Green Asset Ratio (GAR)</strong> forçam empresas e bancos a agir já. O fim dos veículos a combustão e as diretivas ESG/CSRD criam urgência regulatória sem precedentes.
+            A <strong style={{ color: BLUE }}>Taxonomia da UE</strong> e as diretivas <strong style={{ color: BLUE }}>ESG/CSRD</strong> forçam as empresas a agir já. A transição para frotas sustentáveis e as metas de descontinuação de novos veículos a combustão criam uma urgência regulatória sem precedentes.
           </p>
         </div>
       </Card>
