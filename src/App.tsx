@@ -384,7 +384,7 @@ function S5() {
       label: "SAM", name: "Mercado Útil Disponível", color: TEAL,
       value: "236.250 VE",
       sub: "Segmento Empresarial B2B — 2026",
-      desc: "70–80% das aquisições de novos BEV são empresariais. 85% das empresas inquiridas planeiam instalar postos nas suas instalações.",
+      desc: "• Expansão liderada pelo segmento empresarial.\n\n• 85% planeiam instalar postos nas próprias instalações.",
     },
     {
       label: "SOM", name: "Mercado Útil Obtível — Anos 1–3", color: PURPLE,
